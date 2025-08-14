@@ -11,7 +11,9 @@ const saudacaoPersonalizada = (function (nome1){
 const operacaoMatematica = (numer1, operador2, numer2) => {
   return eval(`${numer1} ${operador2} ${numer2}`);
 };
-document.write(`<p>O resultado de é igual a ${operacaoMatematica(1100,"-", 1)}.</p>`)
+document.write(`<p>O resultado de é igual a ${operacaoMatematica(1100,"-", 1)}.</p>`
+);
+
 
 
 //ARROW FUNCTION (função anônima)
