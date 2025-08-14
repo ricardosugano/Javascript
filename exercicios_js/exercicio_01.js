@@ -14,15 +14,14 @@ const operacaoMatematica = (numer1, operador2, numer2) => {
 document.write(`<p>O resultado de é igual a ${operacaoMatematica(1100,"-", 1)}.</p>`
 );
 
-
-
-//ARROW FUNCTION (função anônima)
-const dobro = (x) => {
+//tarefa 3 - ARROW FUNCTION (função anônima)
+const calculaDobro = (x) => {
   return x * 2;
 };
-document.write(`<p>O dobro do número é ${dobro(900)}.</p>`)
+document.write(`<p>O dobro do número é ${calculaDobro(900)}.</p>`)
 
-//ARROW FUNCTION (função anônima) com mais de um parêmetro
+
+//tarefa 4 - ARROW FUNCTION (função anônima) com mais de um parêmetro
 const calc = (num1, operador, num2) => {
   return eval(`${num1} ${operador} ${num2}`);
 };
